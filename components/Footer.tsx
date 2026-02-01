@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
                <div className="h-10 w-10 overflow-hidden rounded-full border border-gray-800">
-                  <img src={LOGO_URL} alt="Logo" className="h-full w-full object-cover" />
+                  <img src="photos/season-deals-logo.png" alt="Logo" className="h-full w-full object-cover" />
                </div>
                <span className="text-xl font-bold text-white">SEASON DEALS</span>
             </div>
