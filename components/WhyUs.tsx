@@ -16,7 +16,7 @@ const WhyUs: React.FC = () => {
                 <div className="h-14 w-14 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-orange/20 transition-colors">
                     <ShieldCheck className="text-brand-orange" size={28} />
                 </div>
-                <h3 className="text-white font-bold text-lg mb-2">Produits Testés</h3>
+                <h3 className="text-white font-bold text-lg mb-2"></h3>
                 <p className="text-gray-400 text-sm">Chaque article est rigoureusement sélectionné et testé pour garantir sa qualité.</p>
             </div>
 
@@ -26,7 +26,7 @@ const WhyUs: React.FC = () => {
                     <Truck className="text-brand-orange" size={28} />
                 </div>
                 <h3 className="text-white font-bold text-lg mb-2">Livraison 58 Wilayas</h3>
-                <p className="text-gray-400 text-sm">Nous livrons partout en Algérie rapidement et en toute sécurité avec Yalidine.</p>
+                <p className="text-gray-400 text-sm">nous travaillons avec des partenaires pour livrer partout en Algérie rapidement et en toute sécurité avec Yalidine.</p>
             </div>
 
             {/* Feature 3 */}
