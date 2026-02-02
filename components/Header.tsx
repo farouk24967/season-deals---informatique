@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Search, Menu, X, Heart } from 'lucide-react';
-import { LOGO_URL } from '../constants';
+import {  } from '../constants';
 
 interface HeaderProps {
   cartCount: number;
@@ -40,7 +40,7 @@ const Header: React.FC<HeaderProps> = ({
             onClick={() => onNavigate('home')}
           >
             <div className="h-12 w-12 overflow-hidden rounded-full border border-gray-700 bg-gray-900 flex items-center justify-center">
-              <img src="photos/Season-Deals_Dz.png" alt="Season Deals" className="h-full w-full object-cover" />
+              <img src="photos/Season-Deals_d.png" alt="Season Deals" className="h-full w-full object-cover" />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">

@@ -1,6 +1,6 @@
 import { Product, Category } from './types';
 
-export const LOGO_URL = "/photos/logo.png";
+export const LOGO_URL = "/season-deals---informatique/photos/logo.png";
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     price: 5500,
     originalPrice: 7900,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=101",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.6,
     reviews: 84,
     isNew: true,
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     price: 28000,
     originalPrice: 35000,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=102",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 42,
     description: "Simplifiez votre ménage avec ce robot aspirateur intelligent. Il aspire, balaie et nettoie vos sols automatiquement. Doté de capteurs anti-chute et d'une autonomie de 2h, c'est l'allié parfait pour une maison propre sans effort."
@@ -41,7 +41,7 @@ export const PRODUCTS: Product[] = [
     price: 2900,
     originalPrice: 4500,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=103",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.5,
     reviews: 156,
     description: "Préparez des smoothies frais n'importe où avec ce mini mixeur portable. Rechargeable via USB, puissant et facile à nettoyer, il vous accompagne au sport, au travail ou en voyage."
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
     title: "Gilet Chauffant Intelligent USB (Spécial Hiver)",
     price: 4800,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=104",
+    image: "https://picsum.photos /400/300?random=104",
     rating: 4.7,
     reviews: 23,
     description: "Affrontez le froid avec style grâce à ce gilet chauffant intelligent. Trois niveaux de température réglables, alimenté par USB (batterie externe non incluse). Léger et confortable, parfait pour les activités extérieures."
