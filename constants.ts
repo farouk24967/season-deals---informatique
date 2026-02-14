@@ -1,12 +1,12 @@
 import { Product, Category } from './types';
 
-export const LOGO_URL = "https://multimedia.chatgpt.com/multimedia/4fb62f1c-76d7-4632-9020-006c9a752243/image/6252994e-282e-41d3-987d-815252814830.png";
+export const LOGO_URL = "/season-deals---informatique/photos/Season-Deals_Dz.png";
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
   { id: 'maison', name: 'Maison & Cuisine' },
   { id: 'electronique', name: 'Électronique Utile' },
-  { id: 'accessoires', name: 'Accessoires Quotidien' },
+  { id: '', name: 'Accessoires Quotidien' },
   { id: 'ete', name: 'Spécial Été' },
   { id: 'hiver', name: 'Spécial Hiver' },
 ];
@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     price: 5500,
     originalPrice: 7900,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=101",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.6,
     reviews: 84,
     isNew: true,
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     price: 28000,
     originalPrice: 35000,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=102",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 42,
     description: "Simplifiez votre ménage avec ce robot aspirateur intelligent. Il aspire, balaie et nettoie vos sols automatiquement. Doté de capteurs anti-chute et d'une autonomie de 2h, c'est l'allié parfait pour une maison propre sans effort."
@@ -41,7 +41,7 @@ export const PRODUCTS: Product[] = [
     price: 2900,
     originalPrice: 4500,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=103",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.5,
     reviews: 156,
     description: "Préparez des smoothies frais n'importe où avec ce mini mixeur portable. Rechargeable via USB, puissant et facile à nettoyer, il vous accompagne au sport, au travail ou en voyage."
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
     title: "Gilet Chauffant Intelligent USB (Spécial Hiver)",
     price: 4800,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=104",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.7,
     reviews: 23,
     description: "Affrontez le froid avec style grâce à ce gilet chauffant intelligent. Trois niveaux de température réglables, alimenté par USB (batterie externe non incluse). Léger et confortable, parfait pour les activités extérieures."
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     title: "Mini Imprimante Thermique Portable Bluetooth",
     price: 5200,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=105",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.4,
     reviews: 67,
     description: "Imprimez vos photos, notes et étiquettes instantanément depuis votre smartphone. Sans encre, cette imprimante thermique est économique et écologique. Connexion Bluetooth rapide et application intuitive."
@@ -71,7 +71,7 @@ export const PRODUCTS: Product[] = [
     title: "Oreiller de Voyage Ergonomique Mémoire de Forme",
     price: 1900,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=106",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.9,
     reviews: 310,
     description: "Voyagez confortablement avec cet oreiller à mémoire de forme. Conçu pour soutenir parfaitement votre nuque et éviter les douleurs. Housse douce et lavable incluse."
@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     price: 14500,
     originalPrice: 19000,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=107",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.3,
     reviews: 45,
     description: "Transformez votre salon en salle de cinéma. Ce projecteur compact offre une image HD claire et lumineuse. Compatible avec HDMI, USB et smartphones pour projeter vos films et séries préférés."
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     title: "Sac à Dos Antivol Imperméable avec Port USB",
     price: 3800,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=108",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 89,
     description: "Sécurisez vos affaires avec ce sac à dos antivol. Fermetures cachées, matériau résistant aux coupures et imperméable. Intègre un port USB externe pour charger vos appareils en déplacement."
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     title: "Lampe Anti-Moustiques UV Silencieuse",
     price: 1500,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=109",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.2,
     reviews: 112,
     description: "Dormez paisiblement sans moustiques. Cette lampe UV attire et piège les insectes silencieusement. Sans produits chimiques, sans danger pour les enfants et les animaux."
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
     price: 5900,
     originalPrice: 7500,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=200",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 5,
     reviews: 12,
     isNew: true,
@@ -125,7 +125,7 @@ export const PRODUCTS: Product[] = [
     price: 3500,
     originalPrice: 4900,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=201",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.2,
     reviews: 45,
     description: "Rafraîchissez votre espace avec ce climatiseur portable. Fonctionne avec de l'eau glacée pour un air frais et purifié. Lumière LED d'ambiance intégrée."
@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     price: 16900,
     originalPrice: 22000,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=202",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 89,
     isNew: true,
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     price: 3200,
     originalPrice: 4000,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=203",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.5,
     reviews: 34,
     description: "Chauffage d'appoint élégant et silencieux. Technologie céramique pour une chaleur douce et instantanée. Idéal pour le bureau ou la table de chevet."
@@ -158,7 +158,7 @@ export const PRODUCTS: Product[] = [
     title: "Mini Radiateur Électrique Compact (Noir)",
     price: 2800,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=204",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.3,
     reviews: 22,
     description: "Petit mais puissant. Ce mini radiateur vous garde au chaud partout. Protection contre la surchauffe et faible consommation d'énergie."
@@ -169,7 +169,7 @@ export const PRODUCTS: Product[] = [
     price: 4500,
     originalPrice: 5900,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=205",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.7,
     reviews: 56,
     description: "L'accessoire de bureau ultime. Lampe LED réglable, horloge numérique, porte-stylo et support de téléphone. Rechargeable et pliable."
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     price: 3800,
     originalPrice: 5200,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=206",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.6,
     reviews: 120,
     description: "Imprimez vos souvenirs instantanément. Design mignon en forme de chat, connexion Bluetooth, impression thermique sans encre économique."
@@ -188,21 +188,21 @@ export const PRODUCTS: Product[] = [
 ];
 
 export const WILAYAS = [
-    { code: "1", name: "Adrar" }, { code: "2", name: "Chlef" }, { code: "3", name: "Laghouat" }, { code: "4", name: "Oum El Bouaghi" },
-    { code: "5", name: "Batna" }, { code: "6", name: "Béjaïa" }, { code: "7", name: "Biskra" }, { code: "8", name: "Béchar" },
-    { code: "9", name: "Blida" }, { code: "10", name: "Bouira" }, { code: "11", name: "Tamanrasset" }, { code: "12", name: "Tébessa" },
-    { code: "13", name: "Tlemcen" }, { code: "14", name: "Tiaret" }, { code: "15", name: "Tizi Ouzou" }, { code: "16", name: "Alger" },
-    { code: "17", name: "Djelfa" }, { code: "18", name: "Jijel" }, { code: "19", name: "Sétif" }, { code: "20", name: "Saïda" },
-    { code: "21", name: "Skikda" }, { code: "22", name: "Sidi Bel Abbès" }, { code: "23", name: "Annaba" }, { code: "24", name: "Guelma" },
-    { code: "25", name: "Constantine" }, { code: "26", name: "Médéa" }, { code: "27", name: "Mostaganem" }, { code: "28", name: "M'Sila" },
-    { code: "29", name: "Mascara" }, { code: "30", name: "Ouargla" }, { code: "31", name: "Oran" }, { code: "32", name: "El Bayadh" },
-    { code: "33", name: "Illizi" }, { code: "34", name: "Bordj Bou Arréridj" }, { code: "35", name: "Boumerdès" }, { code: "36", name: "El Tarf" },
-    { code: "37", name: "Tindouf" }, { code: "38", name: "Tissemsilt" }, { code: "39", name: "El Oued" }, { code: "40", name: "Khenchela" },
-    { code: "41", name: "Souk Ahras" }, { code: "42", name: "Tipaza" }, { code: "43", name: "Mila" }, { code: "44", name: "Aïn Defla" },
-    { code: "45", name: "Naâma" }, { code: "46", name: "Aïn Témouchent" }, { code: "47", name: "Ghardaïa" }, { code: "48", name: "Relizane" },
-    { code: "49", name: "Timimoun" }, { code: "50", name: "Bordj Badji Mokhtar" }, { code: "51", name: "Ouled Djellal" }, { code: "52", name: "Béni Abbès" },
-    { code: "53", name: "In Salah" }, { code: "54", name: "In Guezzam" }, { code: "55", name: "Touggourt" }, { code: "56", name: "Djanet" },
-    { code: "57", name: "El M'Ghair" }, { code: "58", name: "El Meniaa" }
+  { code: "1", name: "Adrar" }, { code: "2", name: "Chlef" }, { code: "3", name: "Laghouat" }, { code: "4", name: "Oum El Bouaghi" },
+  { code: "5", name: "Batna" }, { code: "6", name: "Béjaïa" }, { code: "7", name: "Biskra" }, { code: "8", name: "Béchar" },
+  { code: "9", name: "Blida" }, { code: "10", name: "Bouira" }, { code: "11", name: "Tamanrasset" }, { code: "12", name: "Tébessa" },
+  { code: "13", name: "Tlemcen" }, { code: "14", name: "Tiaret" }, { code: "15", name: "Tizi Ouzou" }, { code: "16", name: "Alger" },
+  { code: "17", name: "Djelfa" }, { code: "18", name: "Jijel" }, { code: "19", name: "Sétif" }, { code: "20", name: "Saïda" },
+  { code: "21", name: "Skikda" }, { code: "22", name: "Sidi Bel Abbès" }, { code: "23", name: "Annaba" }, { code: "24", name: "Guelma" },
+  { code: "25", name: "Constantine" }, { code: "26", name: "Médéa" }, { code: "27", name: "Mostaganem" }, { code: "28", name: "M'Sila" },
+  { code: "29", name: "Mascara" }, { code: "30", name: "Ouargla" }, { code: "31", name: "Oran" }, { code: "32", name: "El Bayadh" },
+  { code: "33", name: "Illizi" }, { code: "34", name: "Bordj Bou Arréridj" }, { code: "35", name: "Boumerdès" }, { code: "36", name: "El Tarf" },
+  { code: "37", name: "Tindouf" }, { code: "38", name: "Tissemsilt" }, { code: "39", name: "El Oued" }, { code: "40", name: "Khenchela" },
+  { code: "41", name: "Souk Ahras" }, { code: "42", name: "Tipaza" }, { code: "43", name: "Mila" }, { code: "44", name: "Aïn Defla" },
+  { code: "45", name: "Naâma" }, { code: "46", name: "Aïn Témouchent" }, { code: "47", name: "Ghardaïa" }, { code: "48", name: "Relizane" },
+  { code: "49", name: "Timimoun" }, { code: "50", name: "Bordj Badji Mokhtar" }, { code: "51", name: "Ouled Djellal" }, { code: "52", name: "Béni Abbès" },
+  { code: "53", name: "In Salah" }, { code: "54", name: "In Guezzam" }, { code: "55", name: "Touggourt" }, { code: "56", name: "Djanet" },
+  { code: "57", name: "El M'Ghair" }, { code: "58", name: "El Meniaa" }
 ];
 
 // Delivery Fees: { home: Domicile Price, desk: Stop Desk Price }
@@ -269,8 +269,8 @@ export const DELIVERY_FEES: Record<string, { home: number | null, desk: number |
 };
 
 export const WILAYA_TO_COMMUNES: Record<string, string[]> = {
-  "1": ["Adrar","Tamest", "Aoulef", "Charouine", "Fenoughil", "In Zghmir", "Ksar Kaddour", "Reggane", "Sali", "T'Sabit","Tit", "Timekten", "Tinerkouk","Tamentit","Bouda","Sebaa", "Zaouiet Kounta"],
-  "2": ["Chlef", "Abou El Hassan", "Aïn Merane", "Aïn Tinnouka","Benairia","Sobha", "Beni Haoua", "Boukadir", "Bouzeghaia", "Breira", "El Karimia","Tadjnena","Taouegrit","Harchoun","Beni Rached","Hallasa","Herenfa","Oued Goussine","Dahra", "El Marsa", "El Menaouer", "Oued Fares", "Oum Drou", "Tenes"],
+  "1": ["Adrar", "Tamest", "Aoulef", "Charouine", "Fenoughil", "In Zghmir", "Ksar Kaddour", "Reggane", "Sali", "T'Sabit", "Tit", "Timekten", "Tinerkouk", "Tamentit", "Bouda", "Sebaa", "Zaouiet Kounta"],
+  "2": ["Chlef", "Abou El Hassan", "Aïn Merane", "Aïn Tinnouka", "Benairia", "Sobha", "Beni Haoua", "Boukadir", "Bouzeghaia", "Breira", "El Karimia", "Tadjnena", "Taouegrit", "Harchoun", "Beni Rached", "Hallasa", "Herenfa", "Oued Goussine", "Dahra", "El Marsa", "El Menaouer", "Oued Fares", "Oum Drou", "Tenes"],
   "3": ["Laghouat", "Ain Madhi", "Ain Sidi Ali", "Beidha Bordj", "Benghazi", "Hadj Mechri", "Ksar El Hirane", "Makhareg Boualem", "Mihoub", "Oued Morra", "Sidi Makhlouf"],
   "4": ["Oum El Bouaghi", "Ain Beida", "Ainmlila", "Behir Chergui", "El Amiria", "El Belala", "El Djazia", "El Fedjoudj", "El Harmilia", "El Kouh", "Fkirina", "Hanchir Toumghani", "Ksar Sbahi", "Meskiana", "Ouled Gacem", "Ouled Hamla", "Ouled Zouai", "Rahia", "Sigus", "Souk Naamane", "Zorg"],
   "6": ["Béjaïa", "Amizour", "Aokas", "Barbacha", "Beni Djellil", "Beni Ksila", "Beni-Mallikeche", "Bouhamza", "Boukhelifa", "Boussif Ouled Askeur", "Chelata", "Chemini", "Darguina", "Draâ El Mizan", "El Kseur", "Fenaia Il Maten", "Feraoun", "Ighil Ali", "Ighram", "Kendira", "Kherrata", "Leflaye", "M'cisna", "Melbou", "Oued Ghir", "Ouzellaguen", "Semaoun", "Sidi Ayad", "Souk El Thenine", "Taskriout", "Tazmalt", "Tibane", "Tichy", "Tifra", "Timezrit", "Tinebdar", "Tizi N'berber", "Toudja"],
@@ -279,13 +279,13 @@ export const WILAYA_TO_COMMUNES: Record<string, string[]> = {
   "8": ["Béchar", "Abadla", "Beni Abbes", "Beni Ikhlef", "Beni Ounif", "Boukais", "Boualem", "Boukaïs", "Djanet", "El Ouata", "El Abiodh Sidi Cheikh", "Erg Ferradj", "Igli", "Kénadsa", "Lahmar", "Meridja", "Mogheul", "Oum El Assel", "Tabelbala", "Taghit", "Tindouf", "Timoudi"],
   "9": ["Blida", "Boufarik", "Soumaa", "Mouzaia", "Satte", "Bouinan", "Benkhelil", "Beni Mered", "Ouled Slama", "Oued Djer", "Ouled Yaich", "Chiffa", "Hammam Melouane", "Beni Tamou", "Bouarfa", "Meftah", "Sidi Moussa", "El Affroun", "Chrea", "Djebabra", "Bouhlou", "Oued Alleug", "Ouled Mimoun", "Larbaa"],
   "10": ["Bouira", "El Asnam", "Guerrouaou", "Souk El Khemis", "Kadiria", "Hanifia", "Dirah", "Ait Laaziz", "Taghzout", "Raouraoua", "Mezdour", "Haizer", "Lakhdaria", "Maala", "El Hachimia", "Aomar", "Ain El Hadjar", "Djebahia", "Aghbalou", "Taguedit", "Ain Turk", "Saharidj", "Dechmia", "Ridane", "Bechloul", "Bordj Oukhriss", "El Adjiba", "El Hakimia", "El Khebouzia", "Hadjera Zerga", "Ath Mansour", "El Mokrani", "Oued El Berdi"],
-  "11": ["Tamanrasset", "Abalessa", "In Ghar", "In Guezzam", "Idles", "Tinzaouatine", "Tazrouk", "Tin Zaouatine", "In Salah", "In Amguel", "Foggaret Ezzaouia" ],
+  "11": ["Tamanrasset", "Abalessa", "In Ghar", "In Guezzam", "Idles", "Tinzaouatine", "Tazrouk", "Tin Zaouatine", "In Salah", "In Amguel", "Foggaret Ezzaouia"],
   "12": ["Tébessa", "Bir El Ater", "Cheria", "Stah Guentis", "El Aouinet", "Lahouidjbet", "Safsaf El Ouesra", "Hammamet", "Negrine", "Bir El Mokadem", "El Kouif", "Morsott", "El Ogla", "Bekkaria", "Boukhadra", "Ouenza", "El Ma El Biodh", "Oum Ali", "Thlidjene", "Ain Zerga", "El Meridj", "Boulhaf Dyr", "Bedjene", "El Mazeraa", "Ferkane"],
   "13": ["Tlemcen", "Beni Mester", "Ain Tallout", "Remchi", "El Fehoul", "Sabra", "Ghazaouet", "Souani", "Djebala", "El Gor", "Oued Chouly", "Ain Fezza", "Ouled Mimoun", "Amieur", "Ain Youcef", "Zenata", "Beni Snous", "Bab El Assa", "Dar Yaghmouracene", "Fellaoucene", "Azails", "Sebbaa Chioukh", "Terny Beni Hediel", "Bensekrane", "Ain Nehala", "Hennaya", "Maghnia", "Hammam Boughrara", "Souahlia", "Msirda Fouaga", "Ain Fetah", "El Aricha", "Beni Khellad", "Nedroma", "Sidi Abdelli", "Sebdou", "Beni Ouarsous", "Sidi Medjahed", "Beni Boussaid", "Marsa Ben Mhidi", "Nouicer", "Sidi Samra", "Foum Toub", "Chetouane"],
   "14": ["Tiaret", "Medroussa", "Ain Bouchekif", "Ain Deheb", "Sidi Ali Mellal", "Ain El Hadid", "Ain Zarit", "Ain Kermes", "Bougara", "Chehaima", "Djebilet Rosfa", "Djillali Ben Amar", "Faidja", "Guertoufa", "Hamadia", "Ksar Chellala", "Madna", "Mahdia", "Mechraa Safa", "Medrissa", "Meghila", "Mellakou", "Naima", "Ouled Djerad", "Ouled Mimoun", "Rahouia", "Rechaiga", "Sebt", "Serghine", "Si Abdelghani", "Sidi Abderrahmane", "Sidi Bakhti", "Sidi Hosni", "Sougueur", "Takhemaret", "Tidda", "Tousnina", "Zmalet El Emir Abdelkader"],
   "15": ["Tizi Ouzou", "Ain El Hammam", "Akbil", "Ait Aissa Mimoun", "Ait Bouaddou", "Ait Chafaa", "Ait Mahmoud", "Ait Yahia", "Boghni", "Bounouh", "Djebel Aissa", "Freha", "Illoula Oumalou", "Irdjen", "Larbaâ Nath Irathen", "Maatka", "Makouda", "Mechtras", "Ouaguenoun", "Ouled Aissa", "Rahassa", "Souamaa", "Tamda", "Tigzirt", "Timizart", "Tizi Ghenif", "Tizi Rached", "Zekri"],
   "16": ["Alger", "Bab Ezzouar", "Baraki", "Bir El Djir", "Hussein Dey", "Sidi M'Hamed", "El Madania", "Bologhine", "Casbah", "Oued Koriche", "Bir Mourad Rais", "El Biar", "Bouzareah", "Birkhadem", "El Harrach", "Oued Smar", "Bordj El Kiffan", "Ben Aknoun", "Dar El Beida", "Cheraga", "Ouled Fayet", "El Achour", "Draria", "Douera", "Bir Touta", "Rouiba", "Kouba", "Bachedjerah", "Hydra", "Mohammadia", "Bordj El Bahri", "Marsa", "Saoula", "Staoueli", "Zeralda", "Rahmania", "Souidania", "Hammedi", "Khracia", "Sidi Moussa", "Ain Taya", "Bordj Menai", "Tassala El Merdja", "Ouled Chebel", "Sidi Ahmed", "El Hammamet", "Rais Hamidou", "Dely Ibrahim", "Bourouba", "Khraissia", "El Magharia", "Beni Messous", "Les Eucalyptus", "Birtouta", "Tassift", "Ouled Yahia Khadrouch", "Sidi Merouane", "Khemis El Khechna", "Reghaia", "Ain Benian"],
-  "17": ["Djelfa", "Ain Chouhada", "Ain Fekka", "Amourah", "Birine", "Charef", "Dar Chioukh", "El Idrissia", "Faidh El Botma", "Guettara", "Hassi Bahbah", "Hassi El Euch", "khemiss El Djadid", "Messaad", "Moudjebara", "Sed Rahal", "Selmana", "Sidi Baizid", "Tadmit","Tessala El Merdja", "Zaccar", "Ain Maabed", "Ain Oussera", "Beni Yacoub", "Boussaada", "El Guedid", "El Khemis", "Hassi El Ghella","Messaoud Boudjeriou", "Ouled Addouane", "Ouled Sidi Brahim", "Sidi Ladjel", "Tadjenanet","El Oued"],
+  "17": ["Djelfa", "Ain Chouhada", "Ain Fekka", "Amourah", "Birine", "Charef", "Dar Chioukh", "El Idrissia", "Faidh El Botma", "Guettara", "Hassi Bahbah", "Hassi El Euch", "khemiss El Djadid", "Messaad", "Moudjebara", "Sed Rahal", "Selmana", "Sidi Baizid", "Tadmit", "Tessala El Merdja", "Zaccar", "Ain Maabed", "Ain Oussera", "Beni Yacoub", "Boussaada", "El Guedid", "El Khemis", "Hassi El Ghella", "Messaoud Boudjeriou", "Ouled Addouane", "Ouled Sidi Brahim", "Sidi Ladjel", "Tadjenanet", "El Oued"],
   "18": ["Jijel", "El Aouana", "Djimla", "Erraguene", "El Milia", "Kaous", "Settara", "Taher", "Texenna", "Ziama Mansouriah", "Chekfa", "El Ancer", "El Kennar Nouchfi", "El M'naouer", "Ouled Yahia Khadrouch", "Sidi Abdelaziz", "Sidi Maârouf", "Taza", "Bordj Taher", "Cheraia", "El Ouldja", "Selma Benziada", "Sidi Daho", "Souk El Tenine"],
   "19": ["Sétif", "Ain Arnat", "Ain Azel", "Ain El Kebira", "Amoucha", "Babor", "Bazer Sakhra", "Bir El Arch", "Bouandas", "Bousselam", "Djemila", "El Eulma", "Guellal", "Guenzet", "Hammam Guergour", "Hammam Soukhna", "Maoklane", "Menaa", "Mezloug", "Ouled Sabor", "Rasfa", "Salah Bey", "Serdj El Ghoul", "Talaifacene", "Tizi N'Bechar", "Ain Lahdjar", "Beni Fouda", "Beni Hocine", "Beni Ourtilane", "Bir Haddada", "Bougaa", "El Ouldja", "Guelta Zerka", "Harbil", "Ksar El Abtal", "Maaouia", "Meftah", "Oued El Barad", "Salah Bey", "Salahida", "Tizi Ghenif"],
   "20": ["Saïda", "Ain El Hadjar", "Ain Sekhouna", "Doui Thabet", "El Hassasna", "Hounet", "Maamora", "Moulay Larbi", "Ouled Brahim", "Ouled Khaled", "Ouled Mimoun", "Sidi Ahmed", "Sidi Boubekeur", "Sidi Hamadouche", "Tircine", "Youb"],
@@ -299,7 +299,7 @@ export const WILAYA_TO_COMMUNES: Record<string, string[]> = {
   "28": ["M'Sila", "Ain El Hadjel", "Ain Errich", "Ben Srour", "Berhoum", "Bousselam", "Chellal", "El Hamel", "Hammam Dhalaa", "Khoubana", "M'Sila", "Maadid", "Magra", "Medjedel", "Ouled Derradj", "Ouled Sidi Brahim", "Sidi Aissa", "Sidi Ameur", "Sidi Hadjeres", "Sidi M'Hamed", "Tamsa", "Tiaret", "Ain El Hadjel", "Ain Errich", "Ben Srour", "Berhoum", "Bousselam"],
   "29": ["Mascara", "Ain Fekan", "Ain Ferah", "Bouhanifia", "El Bordj", "Ghriss", "Hacine", "Khalouia", "Makdha", "Mascara", "Matemore", "Mekhadma", "Oggaz", "Ouled Attia", "Oued Taria", "Sig", "Tighenif", "Zahana", "Ain Fekan", "Ain Ferah", "Bouhanifia", "El Bordj", "Ghriss", "Hacine"],
   "30": ["Ouargla", "Ain Beida", "Ain El Ibel", "Hassi Messaoud", "Megarine", "N'goussa", "Rouissat", "Sidi Khouiled", "Taibet", "Temacine", "Touggourt", "Tamacine", "Ain El Ibel", "Hassi Messaoud", "Megarine", "N'goussa", "Rouissat", "Sidi Khouiled"],
-  "31": ["Oran", "Aïn El Turk",  "Bir El Djir", "Hassi Bounif", "El Kerma", "El Braya", "El Hamri", "Misserghin", "Sidi Chami", "Sidi El Houari", "Tafraoui", "Aïn El Turk", "Arzew", "Mers El Kébir", "Es Senia", "Boutlelis", "Bousfer", "Gdyel", "Oued Tlelat", ],
+  "31": ["Oran", "Aïn El Turk", "Bir El Djir", "Hassi Bounif", "El Kerma", "El Braya", "El Hamri", "Misserghin", "Sidi Chami", "Sidi El Houari", "Tafraoui", "Aïn El Turk", "Arzew", "Mers El Kébir", "Es Senia", "Boutlelis", "Bousfer", "Gdyel", "Oued Tlelat",],
   "32": ["El Bayadh", "Boualem", "Bougtoub", "Brezina", "Chellala", "El Abiodh Sidi Cheikh", "El Bnoud", "Kef El Ahmar", "Kraimor", "M'Chouneche", "Moulay Slissen", "Ouled Khlifa", "Rogassa", "Sidi Ameur", "Stitten", "Tousmouline", "El Bayadh", "Boualem", "Bougtoub", "Brezina", "Chellala"],
   "33": ["Illizi", "Bordj Omar Driss", "Debdeb", "In Amenas", "Illizi", "Bordj Omar Driss", "Debdeb", "In Amenas"],
   "34": ["Bordj Bou Arréridj", "Ain Taghrout", "Belimour", "Ben Daoud", "Bir Kasdali", "Bordj Ghedir", "Bordj Zemmoura", "Djaafra", "El Hamadia", "El Main", "El M'hir", "Ghailasa", "Khelil", "Lardjem", "Mansoura", "Medjana", "Ouled Sidi Brahim", "Rabta", "Sidi Embarek", "Taglait", "Tassamert", "Teniet En Nasr", "Tixter", "Zemmoura"],
@@ -313,18 +313,18 @@ export const WILAYA_TO_COMMUNES: Record<string, string[]> = {
   "42": ["Tipaza", "Aghbalou", "Ain Tagourait", "Attatba", "Beni Milleuk", "Bou Ismail", "Cherchell", "Damous", "Djoufi", "Fouka", "Gouraya", "Hadjeret Ennous", "Kolea", "Larhat", "Menaceur", "Messelmoun", "Nador", "Sidi Amar", "Sidi Ghiles", "Sidi Rached", "Tipaza", "Aghbalou", "Ain Tagourait", "Attatba"],
   "43": ["Mila", "Ain Beida Harriche", "Amira Arres", "Beni Dergoun", "Bouhatem", "Chelghoum Laid", "Djerissa", "El Mechira", "Grarem Gouga", "Hamala", "Mila", "Oued Athmania", "Rouached", "Sidi Merouane", "Tassadane Haddada", "Teleghma", "Yahia Beniguecha"],
   "44": ["Aïn Defla", "Aïn Lechiakh", "Aïn Soltane", "Bathia", "Bordj Emir Abdelkader", "Boumedfaa", "Djelida", "El Abadia", "El Amra", "El Attaf", "Hadjout", "Khemis Miliana", "Mekhatria", "Miliana", "Oued Chorfa", "Rouina", "Sidi Lakhdar", "Tacheta Zougagha"],
-  "45": ["Naama","Ain Safra","Mechria","Tiout","Sfissifa","Moghrar","Assela","Djeniane Bourzeg","Ain Ben Khelil","Kasdir","El Biod"],
-  "46": ["Sidi Boumediene","Aïn Temouchent","Chaabat El Ham","Ain Khehel","Hammmam Bouhdjer","Bouzedjar","Aghlal","Terga","Ain El Arbaa", "Tamzoura","Chentouf","Sidi Ben Adda","El Maleh","Ouled Boudjemaa","Ain Tolba","El Amria","Hassi El Ghalla","Beni Saf","Sidi Safi", "Oulhaca","Sidi Ouriache","Emir Abdelakader","El Messaid"],
-  "47": ["Ghardaïa","Dhayed Bendahoua","Berriane","Metilili","El Gherara","El Atteuf","Zelfana","Sebseb","Bounoura","Mansoura"],
+  "45": ["Naama", "Ain Safra", "Mechria", "Tiout", "Sfissifa", "Moghrar", "Assela", "Djeniane Bourzeg", "Ain Ben Khelil", "Kasdir", "El Biod"],
+  "46": ["Sidi Boumediene", "Aïn Temouchent", "Chaabat El Ham", "Ain Khehel", "Hammmam Bouhdjer", "Bouzedjar", "Aghlal", "Terga", "Ain El Arbaa", "Tamzoura", "Chentouf", "Sidi Ben Adda", "El Maleh", "Ouled Boudjemaa", "Ain Tolba", "El Amria", "Hassi El Ghalla", "Beni Saf", "Sidi Safi", "Oulhaca", "Sidi Ouriache", "Emir Abdelakader", "El Messaid"],
+  "47": ["Ghardaïa", "Dhayed Bendahoua", "Berriane", "Metilili", "El Gherara", "El Atteuf", "Zelfana", "Sebseb", "Bounoura", "Mansoura"],
   "48": [],
-  "49": ["Charouine","Ksar Keddour","Timimoun","Ouled Said","Tinerkouk","Metarfa","Aougrout","Talmine"],
+  "49": ["Charouine", "Ksar Keddour", "Timimoun", "Ouled Said", "Tinerkouk", "Metarfa", "Aougrout", "Talmine"],
   "50": [],
-  "51": ["Doucen","Ras El Miad","Ouled Djellal"],
-  "52": ["Ouled Khoudir","Timoudi","Beni Abbes","Beni Ikhlef","Igli","Tabelbala","El Ouata","Kerzaz","Ksabi","Tamtert"],
-  "53": ["Ain Saleh","Ain Ghar","Foggaret Azzaouia"],
+  "51": ["Doucen", "Ras El Miad", "Ouled Djellal"],
+  "52": ["Ouled Khoudir", "Timoudi", "Beni Abbes", "Beni Ikhlef", "Igli", "Tabelbala", "El Ouata", "Kerzaz", "Ksabi", "Tamtert"],
+  "53": ["Ain Saleh", "Ain Ghar", "Foggaret Azzaouia"],
   "54": [],
-  "55": ["Tougourt","Blidet Amor","Tebesbest","Nezla","Zaouia El Abidia","El Hadjira","Taibet","Temacine","Benaceur","Mnaguer","Megarine" ,"El Alia","Sidi Slimane"],
+  "55": ["Tougourt", "Blidet Amor", "Tebesbest", "Nezla", "Zaouia El Abidia", "El Hadjira", "Taibet", "Temacine", "Benaceur", "Mnaguer", "Megarine", "El Alia", "Sidi Slimane"],
   "56": [],
-  "57": ["Still","Mrara","Sidi Khelil","Tenedla","El M'Ghair","Djamaa","Oum Touyour","Sidi Amrane"],
-  "58": ["El Menia","Hassi Fhel","Hassi Gara"]
+  "57": ["Still", "Mrara", "Sidi Khelil", "Tenedla", "El M'Ghair", "Djamaa", "Oum Touyour", "Sidi Amrane"],
+  "58": ["El Menia", "Hassi Fhel", "Hassi Gara"]
 };
