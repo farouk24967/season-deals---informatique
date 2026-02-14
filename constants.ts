@@ -122,9 +122,9 @@ export const PRODUCTS: Product[] = [
   {
     id: 302,
     title: "Climatiseur Digital Portable",
-    price: 5500,
+    price: 6000,
     category: "ete",
-    image: "/season-deals---informatique/produits/Ete/Clim-Degital-5.jpg",
+    image: "https://imgur.com/gLQ6Ran",
     rating: 4.5,
     reviews: 55,
     description: "Climatiseur portable avec affichage numérique."
@@ -175,7 +175,7 @@ export const PRODUCTS: Product[] = [
     price: 5900,
     originalPrice: 7500,
     category: "accessoires",
-    image: "/season-deals---informatique/produits/Ete/J101B-1.jpg",
+    image:"https://imgur.com/gLQ6Ran",
     rating: 5,
     reviews: 12,
     isNew: true,
