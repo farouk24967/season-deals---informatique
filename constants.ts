@@ -5,7 +5,6 @@ export const LOGO_URL = "/season-deals---informatique//logo.png";
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
   { id: 'scolaire', name: 'Rentrée Scolaire' },
-  { id: 'maison', name: 'Maison & Cuisine' },
   { id: 'electronique', name: 'Électronique Utile' },
   { id: 'accessoires', name: 'Accessoires Quotidien' },
   { id: 'ete', name: 'Spécial Été' },
