@@ -1,6 +1,6 @@
 import { Product, Category } from './types';
 
-export const LOGO_URL = "/season-deals---informatique/photos/logo.png";
+export const LOGO_URL = "/season-deals---informatique//logo.png";
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     title: "Sac à Dos Scolaire Design (Modèle 1)",
     price: 3500,
     category: "scolaire",
-    image: "/season-deals---informatique/produits/Scolaire/127772-2-1.jpg",
+    image: "/produits",
     rating: 4.5,
     reviews: 12,
     isNew: true,
@@ -63,7 +63,7 @@ export const PRODUCTS: Product[] = [
     title: "Humidificateur Aroma Diffuser",
     price: 2500,
     category: "hiver",
-    image: "/season-deals---informatique/produits/Hiver/Aroma-291-cnc.jpg",
+    image: "/produits/Hiver/2776-3-4.webp",
     rating: 4.3,
     reviews: 40,
     description: "Humidificateur d'air et diffuseur d'arômes pour une ambiance relaxante."
