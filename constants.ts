@@ -1,12 +1,12 @@
 import { Product, Category } from './types';
 
-export const LOGO_URL = "/season-deals---informatique/photos/logo.png";
+export const LOGO_URL = "/season-deals---informatique/photos/Season-Deals_Dz.png";
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
   { id: 'maison', name: 'Maison & Cuisine' },
   { id: 'electronique', name: 'Électronique Utile' },
-  { id: 'accessoires', name: 'Accessoires Quotidien' },
+  { id: '', name: 'Accessoires Quotidien' },
   { id: 'ete', name: 'Spécial Été' },
   { id: 'hiver', name: 'Spécial Hiver' },
 ];
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
     title: "Gilet Chauffant Intelligent USB (Spécial Hiver)",
     price: 4800,
     category: "hiver",
-    image: "https://picsum.photos /400/300?random=104",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.7,
     reviews: 23,
     description: "Affrontez le froid avec style grâce à ce gilet chauffant intelligent. Trois niveaux de température réglables, alimenté par USB (batterie externe non incluse). Léger et confortable, parfait pour les activités extérieures."
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     title: "Mini Imprimante Thermique Portable Bluetooth",
     price: 5200,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=105",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.4,
     reviews: 67,
     description: "Imprimez vos photos, notes et étiquettes instantanément depuis votre smartphone. Sans encre, cette imprimante thermique est économique et écologique. Connexion Bluetooth rapide et application intuitive."
@@ -71,7 +71,7 @@ export const PRODUCTS: Product[] = [
     title: "Oreiller de Voyage Ergonomique Mémoire de Forme",
     price: 1900,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=106",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.9,
     reviews: 310,
     description: "Voyagez confortablement avec cet oreiller à mémoire de forme. Conçu pour soutenir parfaitement votre nuque et éviter les douleurs. Housse douce et lavable incluse."
@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     price: 14500,
     originalPrice: 19000,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=107",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.3,
     reviews: 45,
     description: "Transformez votre salon en salle de cinéma. Ce projecteur compact offre une image HD claire et lumineuse. Compatible avec HDMI, USB et smartphones pour projeter vos films et séries préférés."
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     title: "Sac à Dos Antivol Imperméable avec Port USB",
     price: 3800,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=108",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 89,
     description: "Sécurisez vos affaires avec ce sac à dos antivol. Fermetures cachées, matériau résistant aux coupures et imperméable. Intègre un port USB externe pour charger vos appareils en déplacement."
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     title: "Lampe Anti-Moustiques UV Silencieuse",
     price: 1500,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=109",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.2,
     reviews: 112,
     description: "Dormez paisiblement sans moustiques. Cette lampe UV attire et piège les insectes silencieusement. Sans produits chimiques, sans danger pour les enfants et les animaux."
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
     price: 5900,
     originalPrice: 7500,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=200",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 5,
     reviews: 12,
     isNew: true,
@@ -125,7 +125,7 @@ export const PRODUCTS: Product[] = [
     price: 3500,
     originalPrice: 4900,
     category: "ete",
-    image: "https://picsum.photos/400/300?random=201",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.2,
     reviews: 45,
     description: "Rafraîchissez votre espace avec ce climatiseur portable. Fonctionne avec de l'eau glacée pour un air frais et purifié. Lumière LED d'ambiance intégrée."
@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     price: 16900,
     originalPrice: 22000,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=202",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.8,
     reviews: 89,
     isNew: true,
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     price: 3200,
     originalPrice: 4000,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=203",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.5,
     reviews: 34,
     description: "Chauffage d'appoint élégant et silencieux. Technologie céramique pour une chaleur douce et instantanée. Idéal pour le bureau ou la table de chevet."
@@ -158,7 +158,7 @@ export const PRODUCTS: Product[] = [
     title: "Mini Radiateur Électrique Compact (Noir)",
     price: 2800,
     category: "hiver",
-    image: "https://picsum.photos/400/300?random=204",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.3,
     reviews: 22,
     description: "Petit mais puissant. Ce mini radiateur vous garde au chaud partout. Protection contre la surchauffe et faible consommation d'énergie."
@@ -169,7 +169,7 @@ export const PRODUCTS: Product[] = [
     price: 4500,
     originalPrice: 5900,
     category: "maison",
-    image: "https://picsum.photos/400/300?random=205",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.7,
     reviews: 56,
     description: "L'accessoire de bureau ultime. Lampe LED réglable, horloge numérique, porte-stylo et support de téléphone. Rechargeable et pliable."
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     price: 3800,
     originalPrice: 5200,
     category: "electronique",
-    image: "https://picsum.photos/400/300?random=206",
+    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
     rating: 4.6,
     reviews: 120,
     description: "Imprimez vos souvenirs instantanément. Design mignon en forme de chat, connexion Bluetooth, impression thermique sans encre économique."
