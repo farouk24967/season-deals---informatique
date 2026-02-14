@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     title: "Sac à Dos Scolaire Design (Modèle 1)",
     price: 3500,
     category: "scolaire",
-    image: "/produits",
+    image: "https://imgur.com/gLQ6Ran",
     rating: 4.5,
     reviews: 12,
     isNew: true,
