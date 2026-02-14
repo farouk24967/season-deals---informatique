@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     price: 5500,
     originalPrice: 7900,
     category: "ete",
-    image: "/season-deals---informatique/produit/Rentrée%20scolaire/Creative-Life-PM-cnc-1.jpg",
+    image: "https://ibb.co/yFNhyrnb",
     rating: 4.6,
     reviews: 84,
     isNew: true,
