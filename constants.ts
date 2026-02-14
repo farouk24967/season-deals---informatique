@@ -1,9 +1,10 @@
 import { Product, Category } from './types';
 
-export const LOGO_URL = "https://multimedia.chatgpt.com/multimedia/4fb62f1c-76d7-4632-9020-006c9a752243/image/6252994e-282e-41d3-987d-815252814830.png";
+export const LOGO_URL = "/season-deals---informatique/photos/logo.png";
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'Tout voir' },
+  { id: 'scolaire', name: 'Rentrée Scolaire' },
   { id: 'maison', name: 'Maison & Cuisine' },
   { id: 'electronique', name: 'Électronique Utile' },
   { id: 'accessoires', name: 'Accessoires Quotidien' },
@@ -12,179 +13,175 @@ export const CATEGORIES: Category[] = [
 ];
 
 export const PRODUCTS: Product[] = [
+  // Rentrée Scolaire
   {
-    id: 1,
-    title: "Climatiseur Portable Arctique USB - Refroidissement Rapide",
-    price: 5500,
-    originalPrice: 7900,
-    category: "ete",
-    image: "https://picsum.photos/400/300?random=101",
-    rating: 4.6,
-    reviews: 84,
-    isNew: true,
-    description: "Restez au frais cet été avec notre climatiseur portable USB. Compact, silencieux et économe en énergie, il refroidit votre espace personnel en quelques minutes. Idéal pour le bureau, la chambre ou le camping."
-  },
-  {
-    id: 2,
-    title: "Robot Aspirateur Intelligent 3-en-1",
-    price: 28000,
-    originalPrice: 35000,
-    category: "maison",
-    image: "https://picsum.photos/400/300?random=102",
-    rating: 4.8,
-    reviews: 42,
-    description: "Simplifiez votre ménage avec ce robot aspirateur intelligent. Il aspire, balaie et nettoie vos sols automatiquement. Doté de capteurs anti-chute et d'une autonomie de 2h, c'est l'allié parfait pour une maison propre sans effort."
-  },
-  {
-    id: 3,
-    title: "Mini Mixeur Portable FreshJuice - Rechargeable",
-    price: 2900,
-    originalPrice: 4500,
-    category: "maison",
-    image: "https://picsum.photos/400/300?random=103",
+    id: 101,
+    title: "Sac à Dos Scolaire Design (Modèle 1)",
+    price: 3500,
+    category: "scolaire",
+    image: "/season-deals---informatique/produits/Scolaire/127772-2-1.jpg",
     rating: 4.5,
-    reviews: 156,
-    description: "Préparez des smoothies frais n'importe où avec ce mini mixeur portable. Rechargeable via USB, puissant et facile à nettoyer, il vous accompagne au sport, au travail ou en voyage."
+    reviews: 12,
+    isNew: true,
+    description: "Sac à dos scolaire robuste et confortable, idéal pour la rentrée."
   },
   {
-    id: 4,
-    title: "Gilet Chauffant Intelligent USB (Spécial Hiver)",
-    price: 4800,
-    category: "hiver",
-    image: "https://picsum.photos/400/300?random=104",
-    rating: 4.7,
-    reviews: 23,
-    description: "Affrontez le froid avec style grâce à ce gilet chauffant intelligent. Trois niveaux de température réglables, alimenté par USB (batterie externe non incluse). Léger et confortable, parfait pour les activités extérieures."
+    id: 102,
+    title: "Sac à Dos Scolaire Design (Modèle 2)",
+    price: 3500,
+    category: "scolaire",
+    image: "/season-deals---informatique/produits/Scolaire/127772-2-2.jpg",
+    rating: 4.6,
+    reviews: 8,
+    isNew: true,
+    description: "Sac à dos ergonomique avec plusieurs compartiments."
   },
   {
-    id: 5,
-    title: "Mini Imprimante Thermique Portable Bluetooth",
-    price: 5200,
-    category: "electronique",
-    image: "https://picsum.photos/400/300?random=105",
-    rating: 4.4,
-    reviews: 67,
-    description: "Imprimez vos photos, notes et étiquettes instantanément depuis votre smartphone. Sans encre, cette imprimante thermique est économique et écologique. Connexion Bluetooth rapide et application intuitive."
-  },
-  {
-    id: 6,
-    title: "Oreiller de Voyage Ergonomique Mémoire de Forme",
-    price: 1900,
-    category: "accessoires",
-    image: "https://picsum.photos/400/300?random=106",
-    rating: 4.9,
-    reviews: 310,
-    description: "Voyagez confortablement avec cet oreiller à mémoire de forme. Conçu pour soutenir parfaitement votre nuque et éviter les douleurs. Housse douce et lavable incluse."
-  },
-  {
-    id: 7,
-    title: "Projecteur LED Mini Home Cinéma HD",
-    price: 14500,
-    originalPrice: 19000,
-    category: "electronique",
-    image: "https://picsum.photos/400/300?random=107",
-    rating: 4.3,
-    reviews: 45,
-    description: "Transformez votre salon en salle de cinéma. Ce projecteur compact offre une image HD claire et lumineuse. Compatible avec HDMI, USB et smartphones pour projeter vos films et séries préférés."
-  },
-  {
-    id: 8,
-    title: "Sac à Dos Antivol Imperméable avec Port USB",
+    id: 103,
+    title: "Sac Scolaire Rose (Style Language)",
     price: 3800,
-    category: "accessoires",
-    image: "https://picsum.photos/400/300?random=108",
+    category: "scolaire",
+    image: "/season-deals---informatique/produits/Scolaire/Rose-Language-4.jpg",
     rating: 4.8,
-    reviews: 89,
-    description: "Sécurisez vos affaires avec ce sac à dos antivol. Fermetures cachées, matériau résistant aux coupures et imperméable. Intègre un port USB externe pour charger vos appareils en déplacement."
+    reviews: 25,
+    description: "Sac à dos rose tendance, parfait pour les étudiants."
   },
   {
-    id: 9,
-    title: "Lampe Anti-Moustiques UV Silencieuse",
+    id: 104,
+    title: "Sac à Dos Chinois (V1)",
+    price: 3200,
+    category: "scolaire",
+    image: "/season-deals---informatique/produits/Scolaire/Sac-Chinois-V1-4-1.jpg",
+    rating: 4.4,
+    reviews: 15,
+    description: "Sac à dos pratique et léger."
+  },
+  
+  // Hiver
+  {
+    id: 201,
+    title: "Humidificateur Aroma Diffuser",
+    price: 2500,
+    category: "hiver",
+    image: "/season-deals---informatique/produits/Hiver/Aroma-291-cnc.jpg",
+    rating: 4.3,
+    reviews: 40,
+    description: "Humidificateur d'air et diffuseur d'arômes pour une ambiance relaxante."
+  },
+  {
+    id: 202,
+    title: "Bonnet LED Rechargeable",
     price: 1500,
-    category: "ete",
-    image: "https://picsum.photos/400/300?random=109",
-    rating: 4.2,
-    reviews: 112,
-    description: "Dormez paisiblement sans moustiques. Cette lampe UV attire et piège les insectes silencieusement. Sans produits chimiques, sans danger pour les enfants et les animaux."
+    category: "hiver",
+    image: "/season-deals---informatique/produits/Hiver/Bonnet-LED-CNC.jpg",
+    rating: 4.7,
+    reviews: 60,
+    description: "Bonnet chaud avec lumière LED intégrée, parfait pour le soir."
   },
   {
-    id: 10,
-    title: "Power Bank Hoco J101B 30000mAh 22.5W",
+    id: 203,
+    title: "Lunch Box Chauffante Électrique",
+    price: 2900,
+    category: "hiver",
+    image: "/season-deals---informatique/produits/Hiver/Creative-Life-PM-cnc-1.jpg",
+    rating: 4.5,
+    reviews: 35,
+    description: "Mangez chaud partout avec cette lunch box électrique."
+  },
+  {
+    id: 204,
+    title: "Radiateur Mural Noir",
+    price: 4500,
+    category: "hiver",
+    image: "/season-deals---informatique/produits/Hiver/Radiateur-noir-cnc.jpg",
+    rating: 4.6,
+    reviews: 20,
+    description: "Radiateur d'appoint élégant et efficace."
+  },
+  {
+    id: 205,
+    title: "Mini Chauffage Soufflant",
+    price: 3200,
+    category: "hiver",
+    image: "/season-deals---informatique/produits/Hiver/Warm-Blower-Pepoun-cnc.jpg",
+    rating: 4.4,
+    reviews: 18,
+    description: "Chauffage compact pour votre bureau ou chambre."
+  },
+  
+  // Été
+  {
+    id: 301,
+    title: "Climatiseur Arctic Air Ultra",
+    price: 4900,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/Arctic-Air-Ultra-cnc.jpg",
+    rating: 4.2,
+    reviews: 100,
+    description: "Refroidisseur d'air personnel compact et puissant."
+  },
+  {
+    id: 302,
+    title: "Climatiseur Digital Portable",
+    price: 5500,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/Clim-Degital-5.jpg",
+    rating: 4.5,
+    reviews: 55,
+    description: "Climatiseur portable avec affichage numérique."
+  },
+  {
+    id: 303,
+    title: "Refroidisseur d'Air (New Model)",
+    price: 5200,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/Cooler-new-cnc.jpg",
+    rating: 4.3,
+    reviews: 42,
+    description: "Nouveau modèle de refroidisseur d'air pour l'été."
+  },
+  {
+    id: 304,
+    title: "Ventilateur Humidificateur Dual Spray",
+    price: 3800,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/Dual-Spray-8.jpg",
+    rating: 4.6,
+    reviews: 30,
+    description: "Ventilateur avec double vaporisateur pour une fraîcheur maximale."
+  },
+  {
+    id: 305,
+    title: "Casquette Ventilateur Solaire",
+    price: 2200,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/casquette-Vt-cnc.jpg",
+    rating: 4.0,
+    reviews: 15,
+    description: "Casquette avec ventilateur intégré fonctionnant à l'énergie solaire."
+  },
+  {
+    id: 306,
+    title: "Chapeau Ventilateur (Venti Hat)",
+    price: 2500,
+    category: "ete",
+    image: "/season-deals---informatique/produits/Ete/chapeau-venti-1.jpg",
+    rating: 4.1,
+    reviews: 20,
+    description: "Chapeau large bord avec ventilateur pour se protéger du soleil et de la chaleur."
+  },
+   {
+    id: 307,
+    title: "Power Bank Hoco J101B 30000mAh",
     price: 5900,
     originalPrice: 7500,
     category: "accessoires",
-    image: "https://picsum.photos/400/300?random=200",
+    image: "/season-deals---informatique/produits/Ete/J101B-1.jpg",
     rating: 5,
     reviews: 12,
     isNew: true,
-    description: "Batterie externe ultra-puissante 30000mAh. Charge rapide 22.5W. Double entrée et trois sorties pour charger plusieurs appareils simultanément. Affichage LED du niveau de batterie."
+    description: "Batterie externe ultra-puissante 30000mAh. Charge rapide 22.5W."
   },
-  {
-    id: 11,
-    title: "Climatiseur Portable Air Cooler 3-en-1",
-    price: 3500,
-    originalPrice: 4900,
-    category: "ete",
-    image: "https://picsum.photos/400/300?random=201",
-    rating: 4.2,
-    reviews: 45,
-    description: "Rafraîchissez votre espace avec ce climatiseur portable. Fonctionne avec de l'eau glacée pour un air frais et purifié. Lumière LED d'ambiance intégrée."
-  },
-  {
-    id: 12,
-    title: "Projecteur Smart Android 4K Wifi 6",
-    price: 16900,
-    originalPrice: 22000,
-    category: "electronique",
-    image: "https://picsum.photos/400/300?random=202",
-    rating: 4.8,
-    reviews: 89,
-    isNew: true,
-    description: "Cinéma à la maison ! Projecteur rotatif 180°, système Android 11 intégré (Netflix, YouTube), Wifi 6 rapide et correction automatique de l'image. Supporte la 4K."
-  },
-  {
-    id: 13,
-    title: "Chauffage Soufflant Céramique Design (Blanc)",
-    price: 3200,
-    originalPrice: 4000,
-    category: "hiver",
-    image: "https://picsum.photos/400/300?random=203",
-    rating: 4.5,
-    reviews: 34,
-    description: "Chauffage d'appoint élégant et silencieux. Technologie céramique pour une chaleur douce et instantanée. Idéal pour le bureau ou la table de chevet."
-  },
-  {
-    id: 14,
-    title: "Mini Radiateur Électrique Compact (Noir)",
-    price: 2800,
-    category: "hiver",
-    image: "https://picsum.photos/400/300?random=204",
-    rating: 4.3,
-    reviews: 22,
-    description: "Petit mais puissant. Ce mini radiateur vous garde au chaud partout. Protection contre la surchauffe et faible consommation d'énergie."
-  },
-  {
-    id: 15,
-    title: "Lampe de Bureau LED Pliable 4-en-1",
-    price: 4500,
-    originalPrice: 5900,
-    category: "maison",
-    image: "https://picsum.photos/400/300?random=205",
-    rating: 4.7,
-    reviews: 56,
-    description: "L'accessoire de bureau ultime. Lampe LED réglable, horloge numérique, porte-stylo et support de téléphone. Rechargeable et pliable."
-  },
-  {
-    id: 16,
-    title: "Mini Imprimante Thermique Chat (Rose)",
-    price: 3800,
-    originalPrice: 5200,
-    category: "electronique",
-    image: "https://picsum.photos/400/300?random=206",
-    rating: 4.6,
-    reviews: 120,
-    description: "Imprimez vos souvenirs instantanément. Design mignon en forme de chat, connexion Bluetooth, impression thermique sans encre économique."
-  }
 ];
 
 export const WILAYAS = [
